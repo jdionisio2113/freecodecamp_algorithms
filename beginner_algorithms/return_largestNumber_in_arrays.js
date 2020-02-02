@@ -8,7 +8,7 @@ function largestOfFour(arr) {
     var result = [];
     for (var i = 0; i < arr.length; i++) {
         var largestNumber = arr[i][0]
-        // console.log(largestNumber)
+
         for (var sb = 1; sb < arr[i].length; sb++) {
             if (arr[i][sb] > largestNumber) {
                 largestNumber = arr[i][sb];
